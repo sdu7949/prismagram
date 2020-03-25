@@ -1,0 +1,17 @@
+{
+  "name": "prismagram",
+  "version": "1.0.0",
+  "repository": "https://sdu7949@github.com/sdu7949/prismagram.git",
+  "author": "lucci <sdu7949@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-node": "^0.0.1-security",
+    "graphql-yoga": "^1.18.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  }
+}
